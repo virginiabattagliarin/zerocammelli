@@ -1,0 +1,185 @@
+#homeh1, #homeh2, #homeh4 {
+  text-align: left; 
+  padding-left: 10%;
+  color: white;
+}
+
+#homeh1 {
+  font-size: 40px; 
+  padding-bottom: 10px; 
+  padding-top: 5%;
+  text-decoration: underline;
+}
+
+#homeh2 {
+  padding-bottom: 20px; 
+  padding-right: 10%
+}
+
+#homeh4 {
+  font-size: 40px; 
+  padding-bottom: 5%; 
+}
+
+.container {
+  display:  grid;
+  grid-template-columns: repeat(3, 1fr); /* Crea tre colonne con larghezza uguale */
+  grid-gap: 20px; /* Aggiunge spazio tra le colonne */
+}
+
+#homepage {
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+div h3 {
+  font-size: 30px;
+  color: green;
+  background-color: black;
+  padding: 20px;
+  margin: 0 auto;
+  border: 4px solid orange;
+}
+
+div p {
+  margin-top: none;
+  margin-bottom: none;
+  color: white;
+  padding-right: 10px;
+  font-size: 30px;
+}
+
+a button {
+  background-color: black; 
+  color: green; 
+  border: 4px solid orange;
+  margin-bottom: 50px
+}
+
+button:hover {
+  background-color: green;
+  color: black;
+}
+
+.bottone {
+  display: inline-block; /* Rende l'ancora un blocco inline */
+  padding: 5px 5px;
+  margin-bottom: 10px;
+  margin-left: 10%;
+  background-color: black;
+  color: green;
+  text-decoration: none;
+  border: 3px solid orange;
+  font-weight: bold; /* Rende il testo in grassetto */
+  text-align: center; /* Centra il testo orizzontalmente */
+  cursor: pointer;
+}
+
+/*titoli pag1,pag2,pag3, testo, i frame*/
+
+.tempo-di-lettura {
+  color: white;
+  text-align: right;
+  padding-right: 15%;
+  padding-bottom: 10px;
+}
+
+#paginah1 {
+  color: orange;
+  font-size: 30px;
+  padding-left: 5%;
+  margin-top: 5%;
+}
+
+#pj {
+  color: white;
+  padding-right: 5%;
+  padding-left:5%;
+}
+
+#iframe {
+  display: block; 
+  margin: 0 auto; 
+  padding-bottom: 20px; 
+  padding-top: 20px;
+}
+
+/* foto pag1,pag2, pag3 */
+
+#joecassano1, #joecassano2 {
+ max-width: 100%; 
+ display: block; margin: 0 auto; 
+ padding-bottom: 20px; 
+ padding-top: 20px;
+}
+
+#massimo1, #massimo2 {
+  max-width: 40%; 
+  display: block; 
+  margin: 0 auto;
+  padding-bottom: 20px; 
+  padding-top: 20px;
+}
+
+#massimo1 { 
+  max-width: 50% !important
+}
+
+#dj1, #dj2 {
+  max-width: 40%; 
+  display: block; 
+  margin: 0 auto;
+  padding-bottom: 20px; 
+  padding-top: 20px;
+}
+
+#dj1 {
+  max-width: 50% !important;
+}
+
+/*more info*/
+
+#pmoreinfo{
+padding-left: 10%;
+padding-right: 10%;
+}
+
+#moreinfoh1, #moreinfoh2, #moreinfoh3, #moreinfoh4, #doch1 {
+padding-left: 10%;
+
+}
+
+#moreinfoh1{
+  padding-bottom: 70px; 
+  text-align: center;
+  padding-top: 70px; 
+}
+#moreinfoh2{
+  padding-bottom: 5%; padding-top: 5%;
+}
+
+#doch1 {
+  text-align: center;
+}
+
+#img1 {
+padding-left: 10%; margin-bottom: 10%;
+max-width: 40%
+}
+
+/*about me*/
+
+#aboutmeh1{
+  padding-bottom: 70px; 
+  text-align: center;
+  padding-top: 70px; 
+}
+
+#paboutme{
+padding-left: 10%;
+padding-right: 20%;
+}
+
+
