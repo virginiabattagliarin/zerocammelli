@@ -1,16 +1,16 @@
 /*home page*/
 .nav-item/*lista parole in barnav*/{
-  font-family: 'M PLUS Code Latin', monospace;
+  font-family: 'M PLUS Code Latin',monospace, serif;
   font-weight: 700;
 }
 .navbar-brand /*logo*/{
-  font-family: 'M PLUS Code Latin', monospace;
+  font-family: 'M PLUS Code Latin',monospace, serif;
   font-weight: 700;
 }
 
 .dropdown-item{
   text-decoration: underline;
-  font-family: 'M PLUS Code Latin', monospace;
+  font-family: 'M PLUS Code Latin',monospace, serif;
 }
 
 #homeh1, #homeh2, #hpmeh3, #homeh4 {
@@ -24,13 +24,13 @@
   padding-bottom: 10px; 
   padding-top: 5%;
   text-decoration: underline;
-  font-family: 'M PLUS Code Latin', monospace;
+  font-family: 'M PLUS Code Latin',monospace, serif;
 }
 
 #homeh2 {
   padding-bottom: 20px; 
   padding-right: 10%;
-  font-family: 'M PLUS Code Latin', monospace;
+  font-family: 'M PLUS Code Latin',monospace, serif;
 }
 
 #homeh3 {
@@ -38,21 +38,21 @@
   padding-left: 10%;
   color: white;
   margin-right: 10%;
-  font-family: 'M PLUS Code Latin', monospace;
+  font-family: 'M PLUS Code Latin',monospace, serif;
 }
 
 #homeh4 {
   font-size: 40px; 
   padding-bottom: 5%; 
-  font-family: 'M PLUS Code Latin', monospace;
+  font-family: 'M PLUS Code Latin',monospace, serif;
 }
 
 #artista /*nome degli artisti in tabella*/{
-  font-family: 'M PLUS Code Latin', monospace;
+  font-family: 'M PLUS Code Latin',monospace, serif;
 }
 
 #ph /*paragrafo home tabella*/{
- font-family: 'M PLUS Code Latin', monospace; 
+ font-family: 'M PLUS Code Latin',monospace, sans-serif;
 }
 
 .container {
@@ -103,7 +103,7 @@ a button /*bottoni clicca qui colonne*/{
   color: green; 
   border: 4px solid orange;
   margin-bottom: 50px;
-  font-family: 'M PLUS Code Latin', monospace;
+  font-family: 'M PLUS Code Latin',monospace, serif;
   font-weight: 600;
 }
 
@@ -126,6 +126,7 @@ button:hover {
   font-weight: bold; /* Rende il testo in grassetto */
   text-align: center; /* Centra il testo orizzontalmente */
   cursor: pointer;
+  font-family: 'M PLUS Code Latin',monospace, serif;
 }
 
 .tempo-di-lettura {
@@ -133,7 +134,7 @@ button:hover {
   text-align: right;
   padding-right: 15%;
   padding-bottom: 10px;
-  font-family: 'M PLUS Code Latin', monospace;
+  font-family: 'M PLUS Code Latin',monospace, serif;
 }
 
 #paginah1 /*nome artista in alto*/{
@@ -141,14 +142,14 @@ button:hover {
   font-size: 30px;
   padding-left: 5%;
   margin-top: 5%;
-  font-family: 'M PLUS Code Latin', monospace;
+  font-family: 'M PLUS Code Latin', monospace, sans-serif;
 }
 
 #pj /*paragrafo artisti*/{
   color: white;
   padding-right: 5%;
   padding-left:5%;
-  font-family: 'M PLUS Code Latin', monospace;
+  font-family: 'M PLUS Code Latin', monospace, sans-serif;
 }
 
 #iframe /*youtube video*/{
@@ -197,7 +198,7 @@ button:hover {
   padding-bottom: 70px; 
   text-align: center;
   padding-top: 70px; 
-  font-family: 'M PLUS Code Latin', monospace;
+  font-family: 'M PLUS Code Latin', monospace, sans-serif;
   font-weight: 700;
   color: white;
 }
@@ -205,7 +206,7 @@ button:hover {
 #paboutme {
   padding-left: 10%;
   padding-right: 20%;
-  font-family: 'M PLUS Code Latin', monospace;
+  font-family: 'M PLUS Code Latin', monospace, sans-serif;
   color: white;
 }
 
@@ -218,14 +219,14 @@ button:hover {
 #pmoreinfo {
   padding-left: 10%;
   padding-right: 10%;
-  font-family: 'M PLUS Code Latin', monospace;
+  font-family: 'M PLUS Code Latin', monospace, sans-serif;
   color:white;
 }
 
 #mdocuh1, #docuh2, #docuh3, #docuh4 {
   padding-left: 10%;
   color: white;
-  font-family: 'M PLUS Code Latin', monospace;
+  font-family: 'M PLUS Code Latin', monospace, serif;
 }
 
 #docuh1 {
@@ -233,13 +234,13 @@ button:hover {
   text-align: center;
   padding-top: 70px; 
   color: white;
-  font-family: 'M PLUS Code Latin', monospace;
+  font-family: 'M PLUS Code Latin', monospace, serif;
   text-align: center;
 }
 
 #docuh2 {
   padding-bottom: 5%; padding-top: 5%;
-  font-family: 'M PLUS Code Latin', monospace;
+  font-family: 'M PLUS Code Latin', monospace, serif;
   color: white;
 }
 
@@ -249,7 +250,7 @@ button:hover {
 }
 
 #didascalia /*sotto img*/{
-  font-family: 'M PLUS Code Latin', monospace;
+  font-family: 'M PLUS Code Latin', monospace, sans-serif;
   color: white;
 }
 
@@ -275,7 +276,7 @@ button:hover {
   padding-bottom: 70px; 
   text-align: center;
   padding-top: 70px; 
-  font-family: 'M PLUS Code Latin', monospace;
+  font-family: 'M PLUS Code Latin', monospace, serif;
   font-weight: 700;
   color: white;
 }
@@ -283,6 +284,6 @@ button:hover {
 #paboutme{
   padding-left: 10%;
   padding-right: 20%;
-  font-family: 'M PLUS Code Latin', monospace;
+  font-family: 'M PLUS Code Latin', monospace, sans-serif;
   color: white;
 }
