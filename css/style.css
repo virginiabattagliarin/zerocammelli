@@ -1,0 +1,288 @@
+/*home page*/
+.nav-item/*lista parole in barnav*/{
+  font-family: 'M PLUS Code Latin', monospace;
+  font-weight: 700;
+}
+.navbar-brand /*logo*/{
+  font-family: 'M PLUS Code Latin', monospace;
+  font-weight: 700;
+}
+
+.dropdown-item{
+  text-decoration: underline;
+  font-family: 'M PLUS Code Latin', monospace;
+}
+
+#homeh1, #homeh2, #hpmeh3, #homeh4 {
+  text-align: left; 
+  padding-left: 10%;
+  color: white;
+}
+
+#homeh1 {
+  font-size: 40px; 
+  padding-bottom: 10px; 
+  padding-top: 5%;
+  text-decoration: underline;
+  font-family: 'M PLUS Code Latin', monospace;
+}
+
+#homeh2 {
+  padding-bottom: 20px; 
+  padding-right: 10%;
+  font-family: 'M PLUS Code Latin', monospace;
+}
+
+#homeh3 {
+  font-size: 30px;
+  padding-left: 10%;
+  color: white;
+  margin-right: 10%;
+  font-family: 'M PLUS Code Latin', monospace;
+}
+
+#homeh4 {
+  font-size: 40px; 
+  padding-bottom: 5%; 
+  font-family: 'M PLUS Code Latin', monospace;
+}
+
+#artista /*nome degli artisti in tabella*/{
+  font-family: 'M PLUS Code Latin', monospace;
+}
+
+#ph /*paragrafo home tabella*/{
+ font-family: 'M PLUS Code Latin', monospace; 
+}
+
+.container {
+  display:  grid;
+  grid-template-columns: repeat(3, 1fr); /* Crea tre colonne con larghezza uguale */
+  grid-gap: 20px; /* Aggiunge spazio tra le colonne */
+}
+
+#homepage /*foto home*/ {
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+#cassie, #varanasi /*foto home*/ {
+  max-width: 30%;
+  margin-left: 10%;
+  margin-bottom: 25px;
+}
+
+#continuaqui /*bottoni*/{
+  margin-left: 10%;
+  margin-bottom: 5%;
+  margin-top: 30px;
+  font-family: 'M PLUS Code Latin 600', monospace, serif;
+}
+
+div h3 /*nomi degli artisti colonne*/{
+  font-size: 30px;
+  color: green;
+  background-color: black;
+  padding: 20px;
+  margin: 0 auto;
+  border: 4px solid orange;
+}
+
+div p /*testo nelle colonne*/{
+  margin-top: none;
+  margin-bottom: none;
+  color: white;
+  padding-right: 10px;
+  font-size: 30px;
+}
+
+a button /*bottoni clicca qui colonne*/{
+  background-color: black; 
+  color: green; 
+  border: 4px solid orange;
+  margin-bottom: 50px;
+  font-family: 'M PLUS Code Latin', monospace;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: green;
+  color: black;
+}
+
+/*pagine artisti 1,2,3*/
+
+.bottone /*bottoni artisti pg 1,2,3*/ {
+  display: inline-block; /* Rende l'ancora un blocco inline */
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 10%;
+  background-color: black;
+  color: green;
+  text-decoration: none;
+  border: 3px solid orange;
+  font-weight: bold; /* Rende il testo in grassetto */
+  text-align: center; /* Centra il testo orizzontalmente */
+  cursor: pointer;
+}
+
+.tempo-di-lettura {
+  color: white;
+  text-align: right;
+  padding-right: 15%;
+  padding-bottom: 10px;
+  font-family: 'M PLUS Code Latin', monospace;
+}
+
+#paginah1 /*nome artista in alto*/{
+  color: orange;
+  font-size: 30px;
+  padding-left: 5%;
+  margin-top: 5%;
+  font-family: 'M PLUS Code Latin', monospace;
+}
+
+#pj /*paragrafo artisti*/{
+  color: white;
+  padding-right: 5%;
+  padding-left:5%;
+  font-family: 'M PLUS Code Latin', monospace;
+}
+
+#iframe /*youtube video*/{
+  display: block; 
+  margin: 0 auto; 
+  padding-bottom: 20px; 
+  padding-top: 20px;
+}
+
+/*foto artisti pag1,pag2, pag3 */
+
+#joecassano1, #joecassano2 {
+ max-width: 100%; 
+ display: block; margin: 0 auto; 
+ padding-bottom: 20px; 
+ padding-top: 20px;
+}
+
+#massimo1, #massimo2 {
+  max-width: 40%; 
+  display: block; 
+  margin: 0 auto;
+  padding-bottom: 20px; 
+  padding-top: 20px;
+}
+
+#massimo1 { 
+  max-width: 50% !important;
+}
+
+#dj1, #dj2 {
+  max-width: 40%; 
+  display: block; 
+  margin: 0 auto;
+  padding-bottom: 20px; 
+  padding-top: 20px;
+}
+
+#dj1 {
+  max-width: 50% !important;
+}
+
+/*about me*/
+
+#aboutmeh1 {
+  padding-bottom: 70px; 
+  text-align: center;
+  padding-top: 70px; 
+  font-family: 'M PLUS Code Latin', monospace;
+  font-weight: 700;
+  color: white;
+}
+
+#paboutme {
+  padding-left: 10%;
+  padding-right: 20%;
+  font-family: 'M PLUS Code Latin', monospace;
+  color: white;
+}
+
+#didascalia {
+  margin-left: 10%;
+}
+
+/*documentazione*/
+
+#pmoreinfo {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'M PLUS Code Latin', monospace;
+  color:white;
+}
+
+#mdocuh1, #docuh2, #docuh3, #docuh4 {
+  padding-left: 10%;
+  color: white;
+  font-family: 'M PLUS Code Latin', monospace;
+}
+
+#docuh1 {
+  padding-bottom: 70px; 
+  text-align: center;
+  padding-top: 70px; 
+  color: white;
+  font-family: 'M PLUS Code Latin', monospace;
+  text-align: center;
+}
+
+#docuh2 {
+  padding-bottom: 5%; padding-top: 5%;
+  font-family: 'M PLUS Code Latin', monospace;
+  color: white;
+}
+
+#img1 {
+  padding-left: 10%; margin-bottom: none;
+  max-width: 50%
+}
+
+#didascalia /*sotto img*/{
+  font-family: 'M PLUS Code Latin', monospace;
+  color: white;
+}
+
+#instapic{
+  max-width: 27%;
+  margin-bottom: none;
+  margin-top: 5%;
+}
+
+#analisipic{
+  max-width: 50%;
+  margin-bottom: none;
+  margin-top:5%;
+}
+
+#didascalia {
+  margin-left: 10%;
+}
+
+/*about me*/
+
+#aboutmeh1{
+  padding-bottom: 70px; 
+  text-align: center;
+  padding-top: 70px; 
+  font-family: 'M PLUS Code Latin', monospace;
+  font-weight: 700;
+  color: white;
+}
+
+#paboutme{
+  padding-left: 10%;
+  padding-right: 20%;
+  font-family: 'M PLUS Code Latin', monospace;
+  color: white;
+}
