@@ -169,7 +169,7 @@ button:hover {
 }
 
 #massimo1, #massimo2 {
-  max-width: 40%; 
+  max-width: 25%; 
   display: block; 
   margin: 0 auto;
   padding-bottom: 20px; 
@@ -177,7 +177,7 @@ button:hover {
 }
 
 #massimo1 { 
-  max-width: 50% !important;
+  max-width: 25% !important;
 }
 
 #dj1, #dj2 {
